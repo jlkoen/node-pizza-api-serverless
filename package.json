@@ -1,0 +1,26 @@
+{
+  "name": "pizza-api-serverless",
+  "version": "1.0.0",
+  "description": "Node.js serverless pizza API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlkoen/node-pizza-api-serverless.git"
+  },
+  "author": "John Koen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlkoen/node-pizza-api-serverless/issues"
+  },
+  "homepage": "https://github.com/jlkoen/node-pizza-api-serverless#readme",
+  "devDependencies": {
+    "claudia": "^5.14.1"
+  },
+  "dependencies": {
+    "claudia-api-builder": "^4.1.2",
+    "claudia-bot-builder": "^4.5.0"
+  }
+}
