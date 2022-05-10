@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "pizza-api-serverless-executor",
+    "name": "pizza-api-serverless",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "t36viuc1cb",
+    "module": "api"
+  }
+}
