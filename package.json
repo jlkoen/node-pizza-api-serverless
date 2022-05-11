@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "create": "claudia create --region us-east-1 --api-module api",
+    "update": "claudia update",
+    "destroy": "claudia destroy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
