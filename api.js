@@ -1,6 +1,7 @@
 'use strict';
 
 const Api = require('claudia-api-builder');
+const createOrder = require('./handlers/create-order');
 const api = new Api();
 
 const getPizzas = require('./handlers/get-pizzas');
@@ -19,6 +20,17 @@ api.get(
   },
   {
     error: 404,
+  }
+);
+
+api.post(
+  '/orders',
+  (request) => {
+    return createOrder(request.body);
+  },
+  {
+    success: 201,
+    error: 400,
   }
 );
 
